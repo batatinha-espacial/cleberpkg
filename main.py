@@ -31,6 +31,9 @@ def install(packagename:str):
     file.write(deb)
   print("Installing {}".format(packagename))
   os.system("dpkg -i /cleberpkg/cache.deb")
+  installed.append(packagename)
+  with open("/cleberpkg/installed.json", "wt") as file:
+    file.write(json.dumps(installed))
   print("Installed {}".format(packagename))
 
 @app.command()
