@@ -8,4 +8,5 @@ with open("/cleberpkg/main.py", "wt") as file:
   file.write(kkk)
 with open("/cleberpkg/installed.json", "wt") as file:
   file.write("[]")
+os.system("cp /cleberpkg/main.py /sbin/cleberpkg")
 print("Installed cleberpkg")
