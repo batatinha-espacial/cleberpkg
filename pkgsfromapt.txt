@@ -14,3 +14,5 @@ libdigest-hmac-perl => libdigest-hmac-perl
 libdigest-sha-perl => libdigest-sha-perl
 libencode-perl => libencode-perl
 netbase => netbase
+libio-socket-ip-perl => libio-socket-ip-perl
+libnet-ip-perl => libnet-ip-perl-1.26
