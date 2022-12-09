@@ -26,3 +26,4 @@ libcrypt1 => libcrypt1
 libacl1 => libacl1
 libselinux1 => libselinux1-3.1
 tar => tar
+libbz2-1.0 => libbz2-1.0
