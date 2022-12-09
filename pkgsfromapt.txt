@@ -17,3 +17,4 @@ netbase => netbase
 libio-socket-ip-perl => libio-socket-ip-perl
 libnet-ip-perl => libnet-ip-perl-1.26
 libscalar-list-utils-perl => libscalar-list-utils-perl
+libtest-simple-perl => libtest-simple-perl
