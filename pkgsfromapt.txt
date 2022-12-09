@@ -1,0 +1,10 @@
+curl => curl-7.74.0
+libc6 => libc6-2.31
+libcurl3-gnutls => libcurl3_gnutls-7.74.0
+libexpat1 => libexpat1-2.2.10
+libpcre2-8-0 => libpcre2-8-0-10.36
+zlib1g => zlib1g
+perl => perl-5.32.1
+liberror-perl => liberror-perl
+git-man => git-man
+git => git
