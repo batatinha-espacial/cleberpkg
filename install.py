@@ -10,4 +10,5 @@ with open("/cleberpkg/main.py", "wt") as file:
 with open("/cleberpkg/installed.json", "wt") as file:
   file.write("[]")
 os.system("cp /cleberpkg/main.py /sbin/cleberpkg")
+os.system("chmod +x /sbin/cleberpkg")
 print("Installed cleberpkg")
