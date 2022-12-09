@@ -20,3 +20,4 @@ libscalar-list-utils-perl => libscalar-list-utils-perl
 libtest-simple-perl => libtest-simple-perl
 libnet-dns-perl => libnet-dns-perl
 libnetaddr-ip-perl => libnetaddr-ip-perl
+libprivileges-drop-perl => libprivileges-drop-perl
