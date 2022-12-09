@@ -68,7 +68,7 @@ def create():
     "dependencies": dependencies,
     "deb": package
   }
-  g = github.Github("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")
+  g = github.Github("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")
   repo = g.get_repo("batatinha-espacial/cleberpkg")
   file = repo.get_contents("packages.json")
   file_contents = str(file.decoded_content, "utf-8")
