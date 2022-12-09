@@ -19,3 +19,4 @@ libnet-ip-perl => libnet-ip-perl-1.26
 libscalar-list-utils-perl => libscalar-list-utils-perl
 libtest-simple-perl => libtest-simple-perl
 libnet-dns-perl => libnet-dns-perl
+libnetaddr-ip-perl => libnetaddr-ip-perl
