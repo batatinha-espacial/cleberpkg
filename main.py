@@ -60,7 +60,7 @@ def create():
       break
   pack_name = input("Name of the Package: ")
   description = input("Description: ")
-  dependencies = input("Dependencies (seppareted by space): ").split()
+  dependencies = input("Dependencies (separated by space): ").split()
   package = input("Link to the .deb file: ")
   packagee = {
     "name": pack_name,
@@ -68,7 +68,7 @@ def create():
     "dependencies": dependencies,
     "deb": package
   }
-  g = github.Github("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")
+  g = github.Github("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")
   repo = g.get_repo("batatinha-espacial/cleberpkg")
   file = repo.get_contents("packages.json")
   file_contents = str(file.decoded_content, "utf-8")
