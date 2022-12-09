@@ -8,3 +8,5 @@ perl => perl-5.32.1
 liberror-perl => liberror-perl
 git-man => git-man
 git => git
+libmouse-perl => libmouse-perl-2.5.10
+libmousex-nativetraits-perl => libmousex-nativetraits-perl
