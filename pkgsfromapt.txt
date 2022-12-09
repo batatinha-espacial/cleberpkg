@@ -11,3 +11,4 @@ git => git
 libmouse-perl => libmouse-perl-2.5.10
 libmousex-nativetraits-perl => libmousex-nativetraits-perl
 libdigest-hmac-perl => libdigest-hmac-perl
+libdigest-sha-perl => libdigest-sha-perl
