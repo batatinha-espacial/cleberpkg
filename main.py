@@ -97,5 +97,15 @@ def download(package_name:str):
   with open(where, "wb") as file:
     file.write(requests.get(deb).content)
   print("File saved")
+
+@app.command()
+def list():
+  packages_obj = json.loads(requests.get("https://raw.githubusercontent.com/batatinha-espacial/cleberpkg/main/packages.json").text)
+  keys = packages_obj.keys()
+  where = input("Where to save: ")
+  with open(where, "wt") as file:
+    for x in keys:
+      file.write("{}\n".format(x))
+  print("List of packages saved")
   
 app()
