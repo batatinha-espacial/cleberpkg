@@ -34,3 +34,4 @@ libssl1.1 => libssl1.1
 libpython3.9-minimal => libpython3.9-minimal
 python3.9-minimal => python3.9-minimal
 python3-minimal => python3-minimal
+media-types => media-types
