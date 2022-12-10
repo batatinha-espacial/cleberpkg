@@ -38,3 +38,4 @@ media-types => media-types
 mailcap => mailcap
 mime-support => mime-support
 tzdata => tzdata
+libdb5.3 => libdb5.3
