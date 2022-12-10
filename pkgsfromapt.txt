@@ -46,3 +46,4 @@ libstdc++6 => libstdc++6
 libmpdec3 => libmpdec3
 libtinfo6 => libtinfo6
 libncursesw6 => libncursesw6
+libcom-err2 => libcom-err2
