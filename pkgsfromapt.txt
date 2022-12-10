@@ -36,3 +36,4 @@ python3.9-minimal => python3.9-minimal
 python3-minimal => python3-minimal
 media-types => media-types
 mailcap => mailcap
+mime-support => mime-support
