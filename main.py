@@ -15,12 +15,12 @@ def install(packagename:str):
     package_obj = packages_obj[packagename]
   except:
     print("Package not found")
-    exit()
+    return None
   with open("/cleberpkg/installed.json") as file:
     installed = json.loads(file.read())
   if packagename in installed:
     print("Package {} is already installed".format(packagename))
-    exit()
+    return None
   deb = package_obj["deb"]
   dependencies = package_obj["dependencies"]
   for x in dependencies:
@@ -43,7 +43,7 @@ def info(packagename:str):
     package_obj = packages_obj[packagename]
   except:
     print("Package not found")
-    exit()
+    return None
   name = package_obj["name"]
   description = package_obj["description"]
   dependencies = package_obj["dependencies"]
@@ -84,4 +84,18 @@ def create():
   repo.update_file(file.path, "Add a package", towrite, file.sha)
   print("Successfully created package {}".format(package_name))
 
+@app.command()
+def download(package_name:str):
+  packages_obj = json.loads(requests.get("https://raw.githubusercontent.com/batatinha-espacial/cleberpkg/main/packages.json").text)
+  try:
+    package_obj = packages_obj[packagename]
+  except:
+    print("Package not found")
+    return None
+  deb = package_obj["deb"]
+  where = input("Where to save: ")
+  with open(where, "wb") as file:
+    file.write(requests.get(deb).content)
+  print("File saved")
+  
 app()
