@@ -50,3 +50,4 @@ libcom-err2 => libcom-err2
 libkrb5support0 => libkrb5support0
 libk5crypto3 => libk5crypto3
 libkeyutils1 => libkeyutils
+libkrb5-3 => libkrb5-3
