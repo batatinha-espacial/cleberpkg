@@ -107,5 +107,12 @@ def list():
     for x in keys:
       file.write("{}\n".format(x))
   print("List of packages saved")
+
+@app.command()
+def updatecleber():
+  pyobj = requests.get("https://raw.githubusercontent.com/batatinha-espacial/cleberpkg/main/install.py").text
+  with open("/cleberpkg/cache.py", "wt") as file:
+    file.write(pyobj)
+  os.system("sudo python3 /cleberpkg/cache.py")
   
 app()
