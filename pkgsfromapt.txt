@@ -30,3 +30,4 @@ libbz2-1.0 => libbz2-1.0
 liblzma5 => liblzma5
 dpkg => dpkg
 debconf => debconf
+libssl1.1 => libssl1.1
