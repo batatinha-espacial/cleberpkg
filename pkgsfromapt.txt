@@ -49,3 +49,4 @@ libncursesw6 => libncursesw6
 libcom-err2 => libcom-err2
 libkrb5support0 => libkrb5support0
 libk5crypto3 => libk5crypto3
+libkeyutils1 => libkeyutils
