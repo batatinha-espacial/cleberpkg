@@ -31,3 +31,4 @@ liblzma5 => liblzma5
 dpkg => dpkg
 debconf => debconf
 libssl1.1 => libssl1.1
+libpython3.9-minimal => libpython3.9-minimal
